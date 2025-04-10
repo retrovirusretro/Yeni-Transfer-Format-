@@ -8,6 +8,8 @@ from datetime import datetime
 import math
 import json
 import tempfile
+pip install streamlit gspread oauth2client pandas xlsxwriter
+
 
 st.set_page_config(page_title="Transfer Öneri Uygulaması", layout="wide")
 st.title("📦 Tam Otomatik Transfer Önerisi (Google Sheets + Gömülü Anahtar)")
